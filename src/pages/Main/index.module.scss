@@ -1,0 +1,28 @@
+.main {
+	padding: 100px;
+}
+
+.posts {
+	display: flex;
+	gap: 20px;
+	row-gap: 20px;
+	flex-wrap: wrap;
+	.post {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		width: 300px;
+		height: 400px;
+		background: rgb(45, 45, 45);
+		border-radius: 20px;
+		padding: 20px;
+	}
+}
+
+.hashtags {
+	display: flex;
+	gap: 10px;
+	span {
+		color: rgb(0, 153, 255);
+	}
+}

@@ -1,0 +1,54 @@
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	background: #3b3b3b;
+	border-radius: 10px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+	.titlediv {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.inps {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+
+		.inpdiv {
+			background: #2d2d2d;
+			padding: 5px 8px;
+			border-radius: 5px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			input {
+				font-size: 14px;
+			}
+		}
+	}
+
+	.bot {
+		button {
+			cursor: pointer;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #ff8a00;
+			border-radius: 5px;
+			padding: 5px;
+			font-size: 16px;
+			color: white;
+		}
+	}
+}
